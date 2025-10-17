@@ -20,3 +20,10 @@ positive
 Enter a number: -1.2
 negative
 """
+number = input("Please enter a number.")
+if number > 0:
+    print("This number is a positive number.")
+if number < 0:
+    print("This number is a negative number.")
+if number == 0:
+    print("This number is zero.")

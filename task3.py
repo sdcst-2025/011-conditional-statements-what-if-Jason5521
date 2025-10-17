@@ -31,3 +31,12 @@ Enter a number: 10000
 
 
 """
+number =int(input("Please enter a number."))
+if number >= 1000:
+    print("3")
+elif number >= 100:
+    print("2")
+elif number >= 10:
+    print("1")
+elif number >= 0:
+    print("0")
